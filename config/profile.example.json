@@ -1,0 +1,617 @@
+{
+  "first_name": "FILL_ME",
+  "last_name": "FILL_ME",
+  "email": "FILL_ME",
+  "phone": "FILL_ME",
+  "phone_type": "Mobile",
+  "address_line1": "FILL_ME",
+  "address": "FILL_ME",
+  "location": "City, ST",
+  "city": "FILL_ME",
+  "state": "FILL_ME",
+  "zip": "FILL_ME",
+  "gpa": "FILL_ME",
+  "current_company": "FILL_ME",
+  "current_title": "Data Engineer",
+  "linkedin": "https://www.linkedin.com/in/your-handle",
+  "github": "https://github.com/your-handle",
+  "school": "FILL_ME",
+  "degree": "FILL_ME",
+  "discipline": "FILL_ME",
+  "education_start": "MM/YYYY",
+  "graduation": "MM/YYYY",
+  "years_experience": "FILL_ME",
+  "work_history": [
+    {
+      "company": "Current Employer",
+      "title": "Data Engineer",
+      "start": "MM/YYYY",
+      "end": "Present",
+      "location": "City, ST"
+    },
+    {
+      "company": "Previous Employer",
+      "title": "Data Engineer",
+      "start": "MM/YYYY",
+      "end": "MM/YYYY",
+      "location": "City, Country"
+    }
+  ],
+  "_comment": "Rules are checked top to bottom; first match wins. Keep specific rules above general ones. Any rule whose answer starts with FILL_ME is skipped.",
+  "answer_rules": [
+    {
+      "match": [
+        "enrolled student",
+        "academic program at",
+        "currently a student",
+        "previously a student"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "16 years old",
+        "at least 16",
+        "16 years of age",
+        "least 16 years"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "contractor with target",
+        "been a contractor",
+        "previously applied to",
+        "ever applied to",
+        "applied to anewhealth"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "permission to contact you via text",
+        "contact you via text message",
+        "receive text messages"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "i attest that i have reviewed",
+        "understand the scope of the role",
+        "meet the qualifications for this position",
+        "attendance requirements listed"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "eligible to work with federal healthcare",
+        "medicare, medicaid",
+        "federal healthcare programs"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "bound by any non-compete",
+        "non-disclosure agreements",
+        "non-compete or non-disclosure"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "relatives, or members of your immediate household",
+        "relatives currently employed"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "require our organization's sponsorship",
+        "require immigration-related support or sponsorship",
+        "point in the future require our organization's sponsorship",
+        "future require immigration-related support",
+        "require sponsorship"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "legally authorized to work in the united states",
+        "able to provide the necessary documents"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "earliest available start date",
+        "available start date"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "percentage of time are you willing to travel",
+        "travel percentage",
+        "willing to travel"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "annual salary requirements",
+        "salary requirements",
+        "salary requirement",
+        "rate requirements"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "earliest availability date",
+        "earliest availability",
+        "availability date to start"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "legally permitted to work",
+        "permitted to work in the united states"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "phone extension",
+        "extension"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "country phone code"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "phone device type",
+        "device type",
+        "phone type"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "relocation assistance",
+        "require relocation",
+        "need relocation",
+        "relocation package",
+        "financial assistance for relocation"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "relocat"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "citizen of the united states",
+        "u.s. citizen",
+        "us citizen",
+        "united states citizen",
+        "citizenship"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "employed by the government",
+        "ethics official",
+        "ethics office",
+        "recused yourself",
+        "federal government",
+        "government civilian",
+        "active duty",
+        "reserves",
+        "government employee",
+        "military employee"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "employment restrictions",
+        "continuing employment restrictions",
+        "non-competition",
+        "non-compete",
+        "non-solicitation",
+        "restrictive covenant",
+        "contractual issues"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "independent auditor",
+        "pricewaterhousecoopers",
+        "pwc",
+        "deloitte",
+        "kpmg",
+        "ernst & young",
+        "current or former employee of"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "unrestricted right to work",
+        "countries do you have the right to work",
+        "right to work in"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "located in one of the following countries",
+        "following countries or regions"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "permanent residency in one of the following",
+        "residency in one of the following countries"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "previously work",
+        "previously worked",
+        "previously been employed",
+        "worked for us before",
+        "former employee",
+        "ever worked for",
+        "have you worked for",
+        "did you work for",
+        "worked for",
+        "predecessors",
+        "in any capacity",
+        "subsidiary",
+        "subsidiaries",
+        "worked on assignment",
+        "staffing firm",
+        "contractor",
+        "affiliate",
+        "ever been employed",
+        "employed by",
+        "any of their subsidiaries"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "closely related",
+        "personal relationship",
+        "conflicts of interest",
+        "conflict of interest",
+        "anyone who currently works",
+        "relative",
+        "relatives",
+        "family member",
+        "family members",
+        "someone you live with",
+        "related to anyone"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "currently employed",
+        "presently employed",
+        "currently working"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "essential functions",
+        "reasonable accommodation",
+        "perform the duties",
+        "essential duties"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "professional certifications",
+        "any certifications",
+        "licenses or certifications"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "professional references",
+        "list three professional references",
+        "provide their contact information",
+        "references"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "i acknowledge",
+        "privacy statement",
+        "privacy notice",
+        "privacy policy",
+        "terms and conditions",
+        "consent"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "sponsor",
+        "visa",
+        "h-1b",
+        "maintain work eligibility"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "authorized to work",
+        "legally authorized",
+        "eligible to work",
+        "work authorization",
+        "permitted to work",
+        "legally permitted"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "intend to work",
+        "where will you work",
+        "where are you located"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "years of experience",
+        "years of professional",
+        "how many years"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "salary",
+        "compensation",
+        "pay expectation",
+        "pay rate",
+        "desired pay",
+        "annual salary",
+        "desired salary",
+        "rate of pay"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "desired start date",
+        "available to start",
+        "start date",
+        "when can you start",
+        "earliest"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "notice period",
+        "how much notice"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "how did you hear",
+        "how did you find",
+        "source"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "previous employer",
+        "previous company",
+        "prior employer"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "current title",
+        "current job title",
+        "current role",
+        "most recent title"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "current company",
+        "current employer",
+        "most recent employer"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "school",
+        "university",
+        "college"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "degree"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "discipline",
+        "major",
+        "field of study"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "gpa",
+        "overall result"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "postal code",
+        "zip code",
+        "zip"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "address line 1",
+        "street address"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "city"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "state"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "country"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "remote",
+        "hybrid",
+        "onsite",
+        "in office",
+        "in-office"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "over 18",
+        "18 years",
+        "at least 18",
+        "age of 18",
+        "18 or over",
+        "18 or older",
+        "18+"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "pronoun"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "gender"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "race",
+        "ethnicity"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "hispanic",
+        "latino"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "veteran"
+      ],
+      "answer": "FILL_ME"
+    },
+    {
+      "match": [
+        "disability"
+      ],
+      "answer": "FILL_ME"
+    }
+  ],
+  "draft_open_questions_with_claude": true,
+  "skills": [
+    "Python",
+    "SQL",
+    "Apache Spark",
+    "PySpark",
+    "Snowflake",
+    "Databricks",
+    "Amazon Web Services (AWS)",
+    "ETL",
+    "Data Engineering",
+    "Apache Kafka"
+  ],
+  "resume_rules": {
+    "_comment": "Used by step2 to check tailored resumes. List employers newest first; names must match your base resume.",
+    "roles": [
+      {
+        "name": "Current Employer",
+        "bullets": 7,
+        "domain": "its own industry (e.g. travel/marketplace)"
+      },
+      {
+        "name": "Previous Employer",
+        "bullets": 5,
+        "domain": "its own industry (e.g. enterprise SaaS)"
+      },
+      {
+        "name": "Earlier Employer",
+        "bullets": 4,
+        "domain": "its own industry (e.g. banking)"
+      }
+    ],
+    "education_line": "Master of Science in [Major] [University], [City], [State] | Graduated: [Month Year]",
+    "header_location": "City, ST (Open to Relocation)"
+  }
+}
