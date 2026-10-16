@@ -1,6 +1,6 @@
 # Job Bot
 
-An automated pipeline that finds new Data Engineer openings every day, tailors a resume to each job description with an LLM, and pre-fills the application so you only review and submit.
+It's an automated pipeline that finds new Data Engineer openings every day, tailors a resume to each job description with an LLM, and pre-fills the application so you only review and submit.
 
 ## How it works
 
